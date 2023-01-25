@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Muhammed Mustafa Tetikoğlu | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Muhammed Mustafa Tetikoğlu</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Hakkımda</a></li>
+        <li><a href="#skills" class="nav-link">Yeteneklerim</a></li>
+        <li><a href="#projects" class="nav-link">Projelerim</a></li>
+        <li><a href="#contact" class="nav-link">İletişim</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+
+    <br>   </br>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/myphoto.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Hakkımda</h2>
+        <p class="bio-text">
+          Merhaba, ben Mustafa. Yazılım geliştirme, ağ güvenliği ve veri analitik gibi konulara odaklanan projelerimi github hesabımda paylaşıyorum. Kendimi yazılım geliştirme, ağ güvenliği ve veri analitik gibi konularda yetkin bir yazılımcı olarak görüyorum. Özellikle, Python dili kullanarak ağ güvenliği test aracı, DDOS saldırı aracı ve benzersiz bir parola oluşturma aracı gibi projeler gerçekleştirdim.
+        </p>
+      </div>
+    </section>
+
+    <br>   </br>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Hakkımda Daha Fazla Bilgi</h2>
+      <p style="text-align: center">
+        Ayrıca, gelecekte veri analitik projeleri, ağ güvenliği projeleri ve mobil uygulama geliştirme projeleri gibi çeşitli projeler gerçekleştirmek için planlamaktayım. Bu GitHub hesabımda yer alan projelerimi sürekli olarak güncelleyecek ve yeni projeler ekleyeceğim. İlgilendiğiniz projeler hakkında daha fazla bilgi almak veya katkıda bulunmak isterseniz, lütfen iletişim kurun.
+      </p>
+      <p style="text-align: center">
+        Her zaman ilgi çekici ve öğrenmeye devam eden projelere odaklanmaya devam ediyorum ve sürekli olarak kendimi geliştirmeye çalışıyorum.
+      </p>
+      <p style="text-align: center">
+        Bu GitHub hesabımda paylaştığım projeler, yazılım geliştirme, ağ güvenliği ve veri analitik gibi konularda katkıda bulunmak isteyen herkes için kaynak olarak kullanılabilir. İlginiz için teşekkür ederim.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Yeteneklerim</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-bootstrap.jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-java.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-c-programming.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-c-sharp-logo.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-git..jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Son Projelerimden Bazıları</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Screenshot_107.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">DDOS Saldırı Aracı</h3>
+          <p class="project-details">
+            Bir Dağıtılmış Özel İstek (DDoS) saldırısı, bir çok kaynaktan gelen trafikle bir çevrimiçi hizmeti kullanılamaz hale getirmeye çalışan bir girişimdir.
+          </p>
+          <a href="https://github.com/F4KOR4LL/DDos-Attack" target="_blank" class="project-link">Göz At</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/10-Major-Types-of-Enterprise-CyberSecurity-Tools.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Ağ Güvenliği Aracı</h3>
+          <p class="project-details">
+            Ağınızdaki cihazları tarar ve cihazların IP adreslerini, cihaz türlerini, açık portlarını, çalışan servislerini ve güncel olmayan yazılım ve servislerini tespit etmek için farklı araçlar kullanır. Bu araçlar arasında nmap, nessus gibi araçlar yer alır.
+          </p>
+          <a href="https://github.com/F4KOR4LL/security_tool" target="_blank" class="project-link">Göz At</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/fileZ6I8QFTH.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Özel Parola Üretici</h3>
+          <p class="project-details">
+            SHA-1, SHA-224, SHA-256, SHA-384, SHA-512 veya MD5 gibi şifreleme algoritmalarını kullanarak rastgele parola oluşturmaya yarıyan bir parola oluşturma aracı.
+          </p>
+          <a href="#" target="_blank" class="project-link">Göz At</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Benimle İrtibata Geçin</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">İsim</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Lütfen İsminizi Giriniz.."
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">E-Posta Adresiniz</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Lütfen E-Posta Adresiniz Giriniz..."
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mesajınız</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Lütfen Mesajınızı Giriniz..."
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Gönder Gitsin!"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/Tetikoglu13" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/mustafa_tetikoglu/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/muhammedmustafatetiko%C4%9Flu/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/F4KOR4LL" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Telif hakkı 2023</p>
+      <p class="copy">
+        <a href="https://www.linkedin.com/in/muhammedmustafatetiko%C4%9Flu/" target="_blank"
+          >Muhammed Mustafa Tetikoğlu</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
